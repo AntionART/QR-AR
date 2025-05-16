@@ -2,24 +2,29 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8" />
-  <title>AR.js con Modelo GLB</title>
+  <title>AR.js con Modelo GLB y Patrón Personalizado</title>
   <script src="https://aframe.io/releases/1.4.0/aframe.min.js"></script>
-  <script src="https://cdn.rawgit.com/jeromeetienne/ar.js/1.7.7/aframe/build/aframe-ar.min.js"></script>
+  <script src="https://cdn.rawgit.com/jeromeetienne/ar.js/1.7.2/aframe/build/aframe-ar.min.js"></script>
   <style>
-    body { margin: 0; overflow: hidden; }
-    #arjs-video { position: fixed; top: 0; left: 0; }
+    body, html { margin: 0; overflow: hidden; width: 100%; height: 100%; }
+    #arjs-video { position: fixed; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; }
   </style>
 </head>
 <body>
-  <a-scene embedded arjs>
+  <a-scene embedded arjs="sourceType: webcam; debugUIEnabled: false;">
+    
+    <!-- Marcador personalizado, reemplaza pattern-CENS.patt por el nombre de tu archivo -->
     <a-marker type="pattern" url="pattern-CENS.patt">
+      <!-- Modelo 3D en formato GLB -->
       <a-entity 
-        gltf-model="QR-AR.glb"
-        scale="0.5 0.5 0.5"
+        gltf-model="QR-AR.glb" 
+        scale="0.5 0.5 0.5" 
         position="0 0 0"
         rotation="0 0 0">
       </a-entity>
     </a-marker>
+
+    <!-- Cámara -->
     <a-entity camera></a-entity>
   </a-scene>
 </body>
