@@ -1,25 +1,40 @@
 <!DOCTYPE html>
-<html lang="es">
-<head>
-  <meta charset="UTF-8" />
-  <title>AR.js con marcador personalizado y OBJ</title>
-  <script src="https://aframe.io/releases/1.4.0/aframe.min.js"></script>
-  <script src="https://cdn.rawgit.com/jeromeetienne/ar.js/1.7.2/aframe/build/aframe-ar.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/aframe-extras@6.1.1/dist/aframe-extras.min.js"></script>
-</head>
-<body style="margin: 0; overflow: hidden;">
-  <a-scene embedded arjs="sourceType: webcam; detectionMode: mono_and_matrix; matrixCodeType: 3x3;">
-    
-    <a-marker type="pattern" url="pattern-CENS.patt">
-      <a-entity 
-        obj-model="obj: url(QR-AR.obj); mtl: url(QR-AR.mtl)" 
-        scale="0.5 0.5 0.5" 
-        position="0 0 0" 
-        rotation="0 0 0">
-      </a-entity>
-    </a-marker>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>AR QR CENS</title>
+    <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+    <script src="https://cdn.rawgit.com/jeromeetienne/ar.js/2.1.8/aframe/build/aframe-ar.min.js"></script>
+    <style>
+      body { margin: 0; overflow: hidden; }
+      #mensaje {
+        position: absolute;
+        top: 10px;
+        width: 100%;
+        text-align: center;
+        font-family: sans-serif;
+        font-size: 18px;
+        color: white;
+        background-color: rgba(0,0,0,0.6);
+        padding: 10px;
+        z-index: 1;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="mensaje">📷 Apunta tu cámara al patrón para ver el modelo en realidad aumentada</div>
 
-    <a-entity camera></a-entity>
-  </a-scene>
-</body>
+    <a-scene embedded arjs>
+      <a-marker type="pattern" url="pattern-CENS.patt">
+        <a-obj-model 
+          src="QR-AR.obj" 
+          mtl="QR-AR.mtl"
+          position="0 0 0"
+          rotation="-90 0 0"
+          scale="0.1 0.1 0.1">
+        </a-obj-model>
+      </a-marker>
+      <a-entity camera></a-entity>
+    </a-scene>
+  </body>
 </html>
