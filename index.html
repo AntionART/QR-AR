@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
   <head>
-    <meta charset="utf-8" />
-    <title>Prueba AR con Patrón</title>
+    <meta charset="UTF-8" />
+    <title>AR - QR CENS</title>
     <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
     <script src="https://cdn.rawgit.com/jeromeetienne/ar.js/2.1.8/aframe/build/aframe-ar.min.js"></script>
     <style>
@@ -13,7 +13,7 @@
         width: 100%;
         text-align: center;
         font-family: sans-serif;
-        font-size: 18px;
+        font-size: 16px;
         color: white;
         background-color: rgba(0,0,0,0.6);
         padding: 10px;
@@ -22,11 +22,17 @@
     </style>
   </head>
   <body>
-    <div id="mensaje">📷 Apunta tu cámara al patrón para ver el cubo rojo en realidad aumentada</div>
+    <div id="mensaje">📷 Apunta tu cámara al logo CENS para ver el modelo en realidad aumentada</div>
 
-    <a-scene embedded arjs>
+    <a-scene embedded arjs="sourceType: webcam;">
       <a-marker type="pattern" url="pattern-CENS.patt">
-        <a-box position="0 0.5 0" color="red"></a-box>
+        <a-obj-model 
+          src="QR-AR.obj"
+          mtl="QR-AR.mtl"
+          position="0 0 0"
+          rotation="-90 0 0"
+          scale="0.025 0.025 0.025">
+        </a-obj-model>
       </a-marker>
       <a-entity camera></a-entity>
     </a-scene>
