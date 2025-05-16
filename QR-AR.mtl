@@ -1,0 +1,182 @@
+newmtl Saxon
+Kd 1.000 0.000 0.000
+d 1.000
+newmtl Saxon 1
+Kd 1.000 0.000 0.000
+d 1.000
+newmtl Saxon 2
+Kd 1.000 0.000 0.000
+d 1.000
+newmtl Saxon 3
+Kd 1.000 0.000 0.000
+d 1.000
+newmtl Saxon 4
+Kd 1.000 0.000 0.000
+d 1.000
+newmtl Saxon 5
+Kd 1.000 0.000 0.000
+d 1.000
+newmtl Saxon 6
+Kd 1.000 0.000 0.000
+d 1.000
+newmtl Saxon 7
+Kd 1.000 0.000 0.000
+d 1.000
+newmtl Saxon 8
+Kd 1.000 0.000 0.000
+d 1.000
+newmtl Saxon 9
+Kd 1.000 0.000 0.000
+d 1.000
+newmtl Saxon 10
+Kd 1.000 0.000 0.000
+d 1.000
+newmtl Saxon 11
+Kd 1.000 0.000 0.000
+d 1.000
+newmtl Saxon 12
+Kd 1.000 0.000 0.000
+d 1.000
+newmtl Saxon 13
+Kd 1.000 0.000 0.000
+d 1.000
+newmtl Saxon 14
+Kd 1.000 0.000 0.000
+d 1.000
+newmtl Saxon 15
+Kd 1.000 0.000 0.000
+d 1.000
+newmtl Saxon 16
+Kd 1.000 0.000 0.000
+d 1.000
+newmtl Saxon 17
+Kd 1.000 0.000 0.000
+d 1.000
+newmtl Saxon 18
+Kd 1.000 0.000 0.000
+d 1.000
+newmtl Saxon 19
+Kd 1.000 0.000 0.000
+d 1.000
+newmtl Saxon 20
+Kd 1.000 0.000 0.000
+d 1.000
+newmtl fabric_brown
+Kd 0.353 0.267 0.200
+d 1.000
+newmtl Material.012
+Kd 0.055 0.055 0.055
+d 1.000
+newmtl Nose.002
+Kd 0.153 0.118 0.086
+d 1.000
+newmtl eyes
+Kd 0.000 0.000 0.000
+d 1.000
+newmtl fabric_white
+Kd 0.816 0.741 0.686
+d 1.000
+newmtl Material. 12
+Kd 0.055 0.055 0.055
+d 1.000
+newmtl Nose. 2
+Kd 0.153 0.118 0.086
+d 1.000
+newmtl eyes 1
+Kd 0.000 0.000 0.000
+d 1.000
+newmtl FRONT_427414
+Kd 0.773 0.678 0.569
+d 1.000
+newmtl Balloon
+Kd 1.000 1.000 1.000
+d 1.000
+map_Kd Balloon_baseColor.png
+newmtl Balloon 1
+Kd 1.000 1.000 1.000
+d 1.000
+map_Kd Balloon_baseColor.png
+newmtl lowPoly_flor1.003
+Kd 1.000 1.000 1.000
+d 1.000
+map_Kd lowPoly_flor1003_baseColor.png
+newmtl lowPoly_flor28
+Kd 1.000 1.000 1.000
+d 1.000
+map_Kd lowPoly_flor28_baseColor.png
+newmtl lowPoly_flor27
+Kd 1.000 1.000 1.000
+d 1.000
+map_Kd lowPoly_flor27_baseColor.png
+newmtl lowPoly_flor27.001
+Kd 1.000 1.000 1.000
+d 1.000
+map_Kd lowPoly_flor27001_baseColor.png
+newmtl lowPoly_flor27.002
+Kd 1.000 1.000 1.000
+d 1.000
+map_Kd lowPoly_flor27002_baseColor.png
+newmtl lowPoly_flor25
+Kd 1.000 1.000 1.000
+d 1.000
+map_Kd lowPoly_flor25_baseColor.png
+newmtl lowPoly_flor25.001
+Kd 1.000 1.000 1.000
+d 1.000
+map_Kd lowPoly_flor25001_baseColor.png
+newmtl lowPoly_flor25.002
+Kd 1.000 1.000 1.000
+d 1.000
+map_Kd lowPoly_flor25002_baseColor.png
+newmtl lowPoly_flor21
+Kd 1.000 1.000 1.000
+d 1.000
+map_Kd lowPoly_flor21_baseColor.png
+newmtl lowPoly_flor21.001
+Kd 1.000 1.000 1.000
+d 1.000
+map_Kd lowPoly_flor21001_baseColor.png
+newmtl lowPoly_flor20
+Kd 1.000 1.000 1.000
+d 1.000
+map_Kd lowPoly_flor20_baseColor.png
+newmtl lowPoly_flor20.001
+Kd 1.000 1.000 1.000
+d 1.000
+map_Kd lowPoly_flor20001_baseColor.png
+newmtl lowPoly_flor19.001
+Kd 1.000 1.000 1.000
+d 1.000
+map_Kd lowPoly_flor19001_baseColor.png
+newmtl lowPoly_flor19
+Kd 1.000 1.000 1.000
+d 1.000
+map_Kd lowPoly_flor19_baseColor.png
+newmtl lowPoly_flor4.008
+Kd 1.000 1.000 1.000
+d 1.000
+map_Kd lowPoly_flor4008_baseColor.png
+newmtl lowPoly_flor4.007
+Kd 1.000 1.000 1.000
+d 1.000
+map_Kd lowPoly_flor4007_baseColor.png
+newmtl lowPoly_flor4.006
+Kd 1.000 1.000 1.000
+d 1.000
+map_Kd lowPoly_flor4006_baseColor.png
+newmtl Red_rose 1
+Kd 1.000 1.000 1.000
+d 1.000
+map_Kd convertedBase.jpg
+newmtl Red_rose 2
+Kd 1.000 1.000 1.000
+d 1.000
+map_Kd convertedBase.jpg
+newmtl Red_rose 3
+Kd 1.000 1.000 1.000
+d 1.000
+map_Kd convertedBase.jpg
+newmtl Red_rose 4
+Kd 1.000 1.000 1.000
+d 1.000
+map_Kd convertedBase.jpg
